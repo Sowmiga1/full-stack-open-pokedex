@@ -14,5 +14,5 @@ jobs:
     steps:
       - name: Say Date
         run: |
-          echo "Run date!"
+          Run date
           
