@@ -12,7 +12,8 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-20.04
     steps:
-      - name: Say Date
+      - name: Get current date
+        id: date
         run: |
-          Run date
+          echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
           
