@@ -27,9 +27,7 @@ module.exports = {
       "error",
       "unix"
     ],
-    "quotes": [
-      "error",
-      "single"
+     "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }]
     ],
     "semi": [
       "error",
