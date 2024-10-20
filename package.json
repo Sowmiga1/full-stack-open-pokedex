@@ -11,7 +11,7 @@
     "build": "webpack --mode production"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/smartlyio/fullstackopen-cicd.git"
   },
   "keywords": [
